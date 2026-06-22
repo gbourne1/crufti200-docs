@@ -1,0 +1,19 @@
+---
+title: Troubleshooting
+---
+
+Common issues and where to look when something in your docs site doesn't behave the way you expect.
+
+## Build won't start
+
+If `jamdesk dev` exits immediately, check that `docs.json` is valid and that every page listed in the navigation actually exists on disk.
+
+It helps to revisit how [file organization](/writing/pages#file-organisation) maps file paths to URLs, then walk through [previewing locally with the CLI](/quickstart#preview-locally-with-the-cli) one more time from the top.
+
+## Page not found
+
+A 404 in the browser almost always means the path in `docs.json` doesn't match the file on disk. Double-check the casing and the folder structure — paths are case-sensitive.
+
+## Styles look wrong
+
+Clear the dev cache with `jamdesk dev --clean` if a theme or color change in `docs.json` isn't showing up after a refresh.
