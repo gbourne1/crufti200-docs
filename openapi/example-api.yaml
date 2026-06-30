@@ -39,7 +39,7 @@ paths:
                 total: 1
     post:
       summary: Create a support ticket
-      description: Create a new ticket for a customer issue or request.
+      description: Create a new support ticket for a customer issue or request, attaching the subject, full message body, priority level, and any number of categorization tags.
       operationId: createTicket
       requestBody:
         required: true
