@@ -91,14 +91,5 @@
         ]
       }
     ]
-  },
-  "auth": {
-    "jwt": {
-      "enabled": true,
-      "loginUrl": "https://www.jamdesk.com/?jwt-qa-login",
-      "public": [
-        "/introduction"
-      ]
-    }
   }
 }
