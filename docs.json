@@ -3,6 +3,11 @@
   "projectId": "dxfc7R4J49mrUwmvqVT2",
   "name": "Documentation",
   "description": "Your documentation site powered by Jamdesk",
+  "auth": {
+    "password": {
+      "enabled": true
+    }
+  },
   "theme": "jam",
   "logo": "/logo/logo.png",
   "colors": {
